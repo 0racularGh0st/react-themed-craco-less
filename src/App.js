@@ -3,7 +3,7 @@ const Main = lazy(()=>import('./components/Main'));
 
 const App = () => {
   return (
-    <Suspense fallback={false}>
+    <Suspense fallback={<div>Loading...</div>}>
     <Main/>
     </Suspense>
     
